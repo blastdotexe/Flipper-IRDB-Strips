@@ -1,0 +1,172 @@
+Filetype: IR signals file
+Version: 1
+#
+# 44-Key LED Remote Control
+#
+name: B+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: C5 AC 3F FF
+#
+name: B-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 BA FB FF
+#
+name: ON
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 7D 82 FF FF
+#
+name: OFF
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: FD 02 00 FF
+#
+name: R
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: E5 AE 1F FF
+#
+name: G
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 65 9A F9 FF
+#
+name: B
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5D 25 FA FF
+#
+name: W
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: DD 22 F2 FF
+#
+name: UP_R
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: D5 2A F2 FF
+#
+name: UP_G
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 55 AA FA FF
+#
+name: UP_B
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 6D 92 F9 FF
+#
+name: QUICK
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 17 E8 FE FF
+#
+name: DOWN_R
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: F7 08 F0 FF
+#
+name: DOWN_G
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 77 88 F8 FF
+#
+name: DOWN_B
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: B7 48 F4 FF
+#
+name: SLOW
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 37 C8 FC FF
+#
+name: DIY1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: CF 30 FF FF
+#
+name: DIY2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4F B0 FB FF
+#
+name: DIY3
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8F 70 F7 FF
+#
+name: AUTO
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0F F0 FF FF
+#
+name: DIY4
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: EF 10 F1 FF
+#
+name: DIY5
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 6F 90 F9 FF
+#
+name: DIY6
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: AF 50 F5 FF
+#
+name: FLASH
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 2F D0 FD FF
+#
+name: JUMP3
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: DF 20 F2 FF
+#
+name: JUMP7
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5F A0 FA FF
+#
+name: FADE3
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 9F 60 F6 FF
+#
+name: FADE7
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1F E0 FE FF
