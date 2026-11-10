@@ -17,8 +17,8 @@ command: 00 00 01 FE
 #
 name: IR_OFF
 type: parsed
-protocol: NEC
-address: 08 00 00 00
+protocol: NECext
+address: 40 F7 00 00
 command: 40 00 00 00
 #
 name: IR_ON
