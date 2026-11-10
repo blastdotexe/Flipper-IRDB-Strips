@@ -1,0 +1,94 @@
+Filetype: IR signals file
+Version: 1
+#
+# 24-Key LED Remote Control - Corrected Commands
+#
+name: IR_BPLUS
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 F7 FF
+#
+name: IR_BMINUS
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 01 FE
+#
+name: IR_OFF
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 02 FD
+#
+name: IR_ON
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 03 FC
+#
+name: IR_R
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 04 FB
+#
+name: IR_G
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 05 FA
+#
+name: IR_B
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 06 F9
+#
+name: IR_W
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 07 F8
+#
+name: IR_B1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 08 F7
+#
+name: IR_B2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 09 F6
+#
+name: IR_B3
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 0A F5
+#
+name: IR_FLASH
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 0B F4
+#
+name: IR_B4
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 0C F3
+#
+name: IR_B5
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 0D F2
+#
+name: IR_B6
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command:
