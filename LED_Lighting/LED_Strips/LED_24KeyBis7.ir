@@ -14,24 +14,13 @@ type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 00 00 01 FE
-#
-name: IR_OFF
-type: parsed
-protocol: NECext
-address: 40 F7 00 00
-command: 40 00 00 00
-#
-name: IR_ON
-type: parsed
-protocol: NEC
-address: 0x08F7
-command: 0x40
-#
-name: IR_R
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 00 00 04 FB
+
+name: Mon_Code_Brut
+type: raw
+frequency: 38000
+duty_cycle: 0.33
+data: 9000 4500 560 560 560 1690 560 1690 560 1690 560 1690 560 1690 560 1690 560 1690 560 560 560 560 560 560 560 560 560 560 560 560 560 560 560 560 560 560 560 1690 560 560 560 560 560 560 560 560 560 560 560 560 560 1690 560 560 560 1690 560 1690 560 1690 560 1690 560 1690 560 1690 560 560 560
+
 #
 name: IR_G
 type: parsed
