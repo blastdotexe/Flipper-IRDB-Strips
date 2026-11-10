@@ -1,148 +1,125 @@
 Filetype: IR signals file
 Version: 1
 #
-# 24-Key LED Remote Control - Direct Codes
+# 24-Key LED Remote Control - Corrected & Converted
 #
 name: IR_BPLUS
 type: parsed
 protocol: NEC
 address: 00 00 00 00
-command: F7 00 FF 00
+command: 00 00 F7 FF
 #
 name: IR_BMINUS
 type: parsed
 protocol: NEC
-address: 00 00 00 00
-command: F7 80 7F 00
+address: 00 00 01 FE
 #
 name: IR_OFF
 type: parsed
 protocol: NEC
-address: 00 00 00 00
-command: F7 40 BF 00
+address: 00 00 02 FD
 #
 name: IR_ON
 type: parsed
 protocol: NEC
-address: 00 00 00 00
-command: F7 C0 3F 00
+address: 00 00 03 FC
 #
 name: IR_R
 type: parsed
 protocol: NEC
-address: 00 00 00 00
-command: F7 20 DF 00
+address: 00 00 04 FB
 #
 name: IR_G
 type: parsed
 protocol: NEC
-address: 00 00 00 00
-command: F7 A0 5F 00
+address: 00 00 05 FA
 #
 name: IR_B
 type: parsed
 protocol: NEC
-address: 00 00 00 00
-command: F7 60 9F 00
+address: 00 00 06 F9
 #
 name: IR_W
 type: parsed
 protocol: NEC
-address: 00 00 00 00
-command: F7 E0 1F 00
+address: 00 00 07 F8
 #
 name: IR_B1
 type: parsed
 protocol: NEC
-address: 00 00 00 00
-command: F7 10 EF 00
+address: 00 00 08 F7
 #
 name: IR_B2
 type: parsed
 protocol: NEC
-address: 00 00 00 00
-command: F7 90 6F 00
+address: 00 00 09 F6
 #
 name: IR_B3
 type: parsed
 protocol: NEC
-address: 00 00 00 00
-command: F7 50 AF 00
+address: 00 00 0A F5
 #
 name: IR_FLASH
 type: parsed
 protocol: NEC
-address: 00 00 00 00
-command: F7 D0 2F 00
+address: 00 00 0B F4
 #
 name: IR_B4
 type: parsed
 protocol: NEC
-address: 00 00 00 00
-command: F7 30 CF 00
+address: 00 00 0C F3
 #
 name: IR_B5
 type: parsed
 protocol: NEC
-address: 00 00 00 00
-command: F7 B0 4F 00
+address: 00 00 0D F2
 #
 name: IR_B6
 type: parsed
 protocol: NEC
-address: 00 00 00 00
-command: F7 70 8F 00
+address: 00 00 0E F1
 #
 name: IR_STROBE
 type: parsed
 protocol: NEC
-address: 00 00 00 00
-command: F7 F0 0F 00
+address: 00 00 0F F0
 #
 name: IR_B7
 type: parsed
 protocol: NEC
-address: 00 00 00 00
-command: F7 08 F7 00
+address: 00 00 10 EF
 #
 name: IR_B8
 type: parsed
 protocol: NEC
-address: 00 00 00 00
-command: F7 88 77 00
+address: 00 00 11 EE
 #
 name: IR_B9
 type: parsed
 protocol: NEC
-address: 00 00 00 00
-command: F7 48 B7 00
+address: 00 00 12 ED
 #
 name: IR_FADE
 type: parsed
 protocol: NEC
-address: 00 00 00 00
-command: F7 C8 37 00
+address: 00 00 13 EC
 #
 name: IR_B10
 type: parsed
 protocol: NEC
-address: 00 00 00 00
-command: F7 28 D7 00
+address: 00 00 14 EB
 #
 name: IR_B11
 type: parsed
 protocol: NEC
-address: 00 00 00 00
-command: F7 A8 57 00
+address: 00 00 15 EA
 #
 name: IR_B12
 type: parsed
 protocol: NEC
-address: 00 00 00 00
-command: F7 68 97 00
+address: 00 00 16 E9
 #
 name: IR_SMOOTH
 type: parsed
 protocol: NEC
-address: 00 00 00 00
-command: F7 E8 17 00
+address: 00 00 17 E8
